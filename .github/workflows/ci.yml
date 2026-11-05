@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 语法检查
+        run: |
+          node --check lib/index.js
+          node --check lib/core.js
+          node --check lib/handbook.js
+
+      - name: 安装依赖
+        run: npm i --no-audit --no-fund koishi@4.18.11 @koishijs/plugin-mock @napi-rs/canvas
+
+      - name: 真实 Koishi 加载测试
+        run: node scripts/ci-load.cjs

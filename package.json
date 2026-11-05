@@ -1,0 +1,46 @@
+{
+  "name": "koishi-plugin-vsinger-gacha",
+  "version": "1.0.0",
+  "description": "VSinger 收藏集抽卡 / 签到积分 / 图鉴（Koishi 插件，一次性安装）",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "assets",
+    "scripts",
+    "README.md"
+  ],
+  "scripts": {
+    "fetch-assets": "node scripts/fetch-assets.mjs"
+  },
+  "keywords": [
+    "koishi",
+    "plugin",
+    "gacha",
+    "vsinger",
+    "bilibili"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "koishi": "^4.17.0"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.52"
+  },
+  "koishi": {
+    "description": {
+      "zh": "VSinger 收藏集抽卡：六位角色的 423 张官方卡、43 个奖池、400/40 保底、镭射版、签到积分、图鉴长图"
+    },
+    "service": {
+      "required": []
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/USERNAME/koishi-plugin-vsinger-gacha.git"
+  },
+  "homepage": "https://github.com/USERNAME/koishi-plugin-vsinger-gacha#readme",
+  "bugs": {
+    "url": "https://github.com/USERNAME/koishi-plugin-vsinger-gacha/issues"
+  },
+  "author": "vsinger-gacha contributors"
+}

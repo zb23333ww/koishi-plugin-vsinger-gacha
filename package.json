@@ -36,11 +36,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/USERNAME/koishi-plugin-vsinger-gacha.git"
+    "url": "https://github.com/zb23333ww/koishi-plugin-vsinger-gacha.git"
   },
-  "homepage": "https://github.com/USERNAME/koishi-plugin-vsinger-gacha#readme",
+  "homepage": "https://github.com/zb23333ww/koishi-plugin-vsinger-gacha#readme",
   "bugs": {
-    "url": "https://github.com/USERNAME/koishi-plugin-vsinger-gacha/issues"
+    "url": "https://github.com/zb23333ww/koishi-plugin-vsinger-gacha/issues"
   },
   "author": "vsinger-gacha contributors"
 }

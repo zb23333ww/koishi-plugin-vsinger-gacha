@@ -1,7 +1,7 @@
 # koishi-plugin-vsinger-gacha
 
 [![npm](https://img.shields.io/npm/v/koishi-plugin-vsinger-gacha?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-vsinger-gacha)
-[![license](https://img.shields.io/github/license/USERNAME/koishi-plugin-vsinger-gacha?style=flat-square)](LICENSE)
+[![license](https://img.shields.io/github/license/zb23333ww/koishi-plugin-vsinger-gacha?style=flat-square)](LICENSE)
 
 > 六位 VSinger 角色的 B 站收藏集抽卡插件：423 张官方卡、43 个奖池、真实概率 + 保底、镭射版、签到积分与图鉴长图。
 
@@ -23,7 +23,7 @@ VSinger 收藏集抽卡插件（Koishi 4.x）：六位角色的官方收藏集�
 npm i koishi-plugin-vsinger-gacha
 
 # 方式二：直接装 GitHub 仓库
-npm i USERNAME/koishi-plugin-vsinger-gacha
+npm i zb23333ww/koishi-plugin-vsinger-gacha
 
 # 下载卡图（423 张，约 800MB；建议在日本/香港或挂代理的机器上执行）
 npx koishi-plugin-vsinger-gacha 2>/dev/null || node node_modules/koishi-plugin-vsinger-gacha/scripts/fetch-assets.mjs --dir data/vsinger-gacha/cards

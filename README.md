@@ -1,5 +1,8 @@
 # koishi-plugin-vsinger-gacha
 
+> AstrBot（Python）移植版：[astrbot_plugin_vsinger_gacha](https://github.com/zb23333ww/astrbot_plugin_vsinger_gacha)
+> —— 同样的抽卡/图鉴/镭射规则，积分走 Azure 打卡。
+
 [![npm](https://img.shields.io/npm/v/koishi-plugin-vsinger-gacha?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-vsinger-gacha)
 [![CI](https://github.com/zb23333ww/koishi-plugin-vsinger-gacha/actions/workflows/ci.yml/badge.svg)](https://github.com/zb23333ww/koishi-plugin-vsinger-gacha/actions/workflows/ci.yml)
 [![license](https://img.shields.io/github/license/zb23333ww/koishi-plugin-vsinger-gacha?style=flat-square)](LICENSE)
